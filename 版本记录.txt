@@ -28,3 +28,4 @@ cameracontrol25 1存储完整的数据whole = head + data,2添加帧头，字节
 cameracontrol26 传输的图像数据与本地显示一致
 cameracontrol27 修改了tap部分，屏蔽了264压缩，李哥提供2tap修改位置
 cameracontrol28采用H264压缩方式传输 恢复1对多传输，可见光传输差字符显示和图像增强。
+cameracontrol29 修改现在红外相机的帧头问题是因为编码问题导致都是三通道显示状态无法正常输出，2可见光的字符和图像增强还是没有麻烦老师有空再看下
